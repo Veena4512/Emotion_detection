@@ -7,8 +7,8 @@ import joblib
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
 
-stop_words = set(stopwords.words('english'))
-stemmer = PorterStemmer()
+# stop_words = set(stopwords.words('english'))
+# stemmer = PorterStemmer()
 
 # Load the trained models and vectorizer
 model = joblib.load('model2.pkl')
