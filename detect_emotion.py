@@ -1,9 +1,9 @@
 # detect_emotion.py
 
 import joblib
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
+# import nltk
+# from nltk.corpus import stopwords
+# from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
 
