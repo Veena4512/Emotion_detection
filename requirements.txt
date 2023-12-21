@@ -6,6 +6,7 @@ itsdangerous
 Jinja2
 MarkupSafe
 Werkzeug
+gunicorn
 joblib
 nltk
 scikit-learn
