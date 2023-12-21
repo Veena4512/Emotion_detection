@@ -11,9 +11,24 @@ from collections import Counter
 # stemmer = PorterStemmer()
 
 # Load the trained models and vectorizer
-model = joblib.load('model2.pkl')
-svm_model = joblib.load('model1.pkl')
-vectorizer = joblib.load('vectorizer.pkl')
+model = joblib.load('m2.pkl')
+svm_model = joblib.load('m1.pkl')
+vectorizer = joblib.load('v.pkl')
+
+
+
+
+# loaded_pipeline, loaded_model = pickle.load(open('model2.pkl', 'rb'))
+# loaded_pipeline, loaded_model = pickle.load(open('model1.pkl', 'rb'))
+# loaded_pipeline, loaded_model = pickle.load(open('vectorizer.pkl', 'rb'))
+
+
+
+
+
+
+
+
 
 # Emotion detection function
 def detect_emotion(text):
