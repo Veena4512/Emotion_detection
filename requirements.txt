@@ -9,4 +9,4 @@ Werkzeug
 joblib
 nltk
 scikit-learn
-scipy==1.7.1
+
